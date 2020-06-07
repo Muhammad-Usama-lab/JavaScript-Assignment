@@ -122,7 +122,7 @@ document.write('<br>Percentage: '+percent+'%');
 
 
 //Q9
-document.write('<br><br> <h2>Answer to Question 8</h2><br><br>');
+document.write('<br><br> <h2>Answer to Question 9</h2><br><br>');
 
 document.write('<h1>Currency in PKR</h1><br>');
 var USdollar=10,riyal=25,PKR;
@@ -133,7 +133,7 @@ document.write('Total currency in PKR is '+PKR);
 
 
 //Q10
-document.write('<br><br> <h2>Answer to Question 8</h2><br><br>');
+document.write('<br><br> <h2>Answer to Question 10</h2><br><br>');
 
 var num=24;
 
@@ -146,7 +146,7 @@ document.write('<br> Final Answer :'+num);
 
 
 //Q11
-document.write('<br><br> <h2>Answer to Question 8</h2><br><br>');
+document.write('<br><br> <h2>Answer to Question 11</h2><br><br>');
 var c_year=2020,age;
 var year_birth=+prompt('Year of Birth','Your Birth Year is..');
 if(year_birth>2020){
@@ -166,7 +166,7 @@ document.write('<br> Birth Year: '+year_birth);
 }
 
 //Q12
-document.write('<br><br> <h2>Answer to Question 8</h2><br><br>');
+document.write('<br><br> <h2>Answer to Question 12</h2><br><br>');
 
 document.write("<h3>"+"The Geometrizer"+"<h3>");
 
@@ -174,12 +174,30 @@ var radius=20;
 var pie=3.142;
 var area,circum;
 
-area=(pie*rads*radius);
+area=(pie*(radius*radius));
 circum=(2*pie*radius);
 
 document.write("<br>"+"Radius of Circle: "+radius);
 document.write("<br>"+"The Circumference is: "+ circum);
 document.write("<br>"+"The Area is: "+ area);
+
+
+//Q13
+
+document.write('<br><br> <h2>Answer to Question 13</h2><br><br>');
+
+var fav_snack="Gol Gappy";
+var age=20,max_age=56,snacks_per_day=2;
+
+
+document.write("<br>"+"Favourite Snack: "+fav_snack);
+document.write("<br>"+"Current Age: "+age);
+document.write("<br>"+"Estimated Maximum Age: "+max_age);
+document.write("<br>"+"Amount of Snack Per Day: "+snacks_per_day);
+
+
+document.write("<br>"+"You will need "+ ((max_age-age)*snacks_per_day) +" " +fav_snack+" to last untill the ripe old age of "+max_age);
+
 
 
 
