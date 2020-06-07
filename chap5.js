@@ -186,6 +186,7 @@ document.write("<br>"+"The Area is: "+ area);
 
 document.write('<br><br> <h2>Answer to Question 13</h2><br><br>');
 
+
 var fav_snack="Gol Gappy";
 var age=20,max_age=56,snacks_per_day=2;
 
