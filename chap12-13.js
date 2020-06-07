@@ -1,6 +1,10 @@
 
 
 
+
+
+
+
 //Q2
 // document.write('<br><br> <h2>Answer to Question 2</h2><br><br>');       
 
@@ -30,10 +34,8 @@ if(a<0){
 //Q4
 
 function getValue(){
-
-    var valueget=document.getElementById("get").value;   
-     
-    switch(valueget){
+    var value=document.getElementById("get").value;    
+    switch(value){
 
         case 'a':{
             alert('You entered Vowel');
@@ -83,59 +85,6 @@ function getValue(){
    
 
 }          
-//Q5
-
-var pass = prompt("Create Password");
-var pass1 = prompt("Enter Password");
-
-
-if (pass != pass1) {
-    window.alert(" Wrong Password ");
-}
-else if (pass == pass1) {
-    alert("  match ");
-}
-else if (pass == pass1) {
-    alert("  match ");
-}
-else {
-    alert(" Enter Password  ");
-}
-//Q6
-
-
-var greeting;
-var hour = 13;
-
-if (hour < 18) {
-    alert("Good day");
-}
-else {
-    alert("Good evening");
-}
-
-//Q7
-
-
-
-var tim = 1900;
-
-if (tim >= 0000 && tim<1200 ) 
-{
-    alert("Good Morning");
-}
-else if (tim >= 1200 && tim < 1700 ) 
-{
-    alert("Good Afternoon");
-}
-else if (tim >= 1700 && tim < 2100 ) 
-{
-    alert("Good Evening");
-}
-else if (tim >= 2100 && tim < 2359 ) 
-{
-    alert("Good Night");
-}
 
 
 
