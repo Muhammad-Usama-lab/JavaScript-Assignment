@@ -86,5 +86,56 @@ function getValue(){
 
 }          
 
+//Q5
+var pass=prompt('Create Password','enter password');
+if(pass===""){
+        var pass=prompt('Create Password','Please enter your password');
 
+}else{
+    var c_pass=prompt('Create Password','enter confirm password');
+
+    if(pass===c_pass){
+alert('“Correct! The password you entered matches the original password');
+    }
+    else{
+        alert('Incorrect password');
+
+    }
+}
+
+
+
+//Q6
+
+
+
+var greeting;
+var hour = 13;
+if (hour < 18) {
+greeting = "Good day";
+}
+else{
+greeting = "Good evening";
+}
+
+
+
+
+
+//Q7
+
+var time=+prompt('Time in 24 hour format','enter time');
+
+if(time>=0000 && time<=1200){
+    alert('Good Morning');
+
+}else if(time>=1200 && time<=1700){
+    alert('Good afternoon');
+}else if(time>=1700 && time<=2100){
+    alert('Good Evening');
+}
+else if(time>=2100 && time<=2359){
+    alert('Good Night');
+    
+}
 
